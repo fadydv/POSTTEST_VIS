@@ -53,7 +53,7 @@ Partial Class Form1
 		' btnTambah
 		' 
 		btnTambah.BackColor = Color.RosyBrown
-		btnTambah.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+		btnTambah.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
 		btnTambah.ForeColor = SystemColors.ControlText
 		btnTambah.Location = New Point(327, 189)
 		btnTambah.Name = "btnTambah"
@@ -66,7 +66,7 @@ Partial Class Form1
 		' btnReset
 		' 
 		btnReset.BackColor = Color.RosyBrown
-		btnReset.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+		btnReset.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
 		btnReset.ForeColor = SystemColors.ControlText
 		btnReset.Location = New Point(427, 189)
 		btnReset.Name = "btnReset"
@@ -106,7 +106,7 @@ Partial Class Form1
 		' 
 		' Form1
 		' 
-		AutoScaleDimensions = New SizeF(8.0F, 20.0F)
+		AutoScaleDimensions = New SizeF(8F, 20F)
 		AutoScaleMode = AutoScaleMode.Font
 		BackColor = Color.MistyRose
 		ClientSize = New Size(800, 451)
@@ -117,7 +117,7 @@ Partial Class Form1
 		Controls.Add(btnTambah)
 		Controls.Add(txtIPS)
 		Controls.Add(Label1)
-		Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+		Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
 		FormBorderStyle = FormBorderStyle.FixedSingle
 		Icon = CType(resources.GetObject("$this.Icon"), Icon)
 		Name = "Form1"
